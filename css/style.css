@@ -500,11 +500,20 @@ span.menu{
 .help-right {
     width: 50%;
     float: right;
+    background: #cccc00;
+    padding: 5.27% 3.5%;
+}
+.help-right-up {
+    width: 50%;
+    float: right;
     background: #003366;
     padding: 5.27% 3.5%;
 }
 .help-right h3{
 	color:#fff;
+}
+.help-right-up h3{
+    color:#fff;
 }
 .help-right h5{
 	color:#fff;
@@ -512,7 +521,20 @@ span.menu{
 	font-family: 'myFont';
 	font-size:21px;
 }
+.help-right-up h5{
+    color:#fff;
+    margin:6px 0 0 0;
+    font-family: 'myFont';
+    font-size:21px;
+}
 .help-right p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.8em;
+    margin-top: 27px;
+    width: 90%;
+}
+.help-right-up p {
     font-size: 16px;
     color: #fff;
     line-height: 1.8em;
@@ -546,6 +568,9 @@ a.tooltips span:before {
 }
 .help-right{
 	position:relative;
+}
+.help-right-up{
+    position:relative;
 }
 /*--slide-ends--*/
 /*--typo-start--*/
@@ -853,6 +878,9 @@ a.tooltips span:before {
 .help-right {
     padding: 4.93% 3.5%;
 }
+.help-right-up {
+    padding: 4.93% 3.5%;
+}
 }
 @media (max-width:1440px){
 .banner {
@@ -871,7 +899,13 @@ a.tooltips span:before {
 .help-right p {
     width: 100%;
 }
+.help-right-up p {
+    width: 100%;
+}
 .help-right {
+    padding: 3.97% 3.5%;
+}
+.help-right-up {
     padding: 3.97% 3.5%;
 }
 }
@@ -899,6 +933,9 @@ a.tooltips span:before {
     border-left: 334px solid transparent;
 }
 .help-right p {
+    margin-top: 14px;
+}
+.help-right-up p {
     margin-top: 14px;
 }
 .contact {
@@ -930,11 +967,17 @@ a.tooltips span:before {
 }
 .help-right h5 {
     font-size: 20px;
+}
+.help-right-up h5 {
+    font-size: 20px;
 }	
 .heading h2, .heading h3 {
     font-size: 2.35em;
 }
 .help-right {
+    padding: 3.59% 3.5%;
+}
+.help-right-up {
     padding: 3.59% 3.5%;
 }
 .address {
@@ -964,10 +1007,19 @@ a.tooltips span:before {
 .help-right {
     padding: 1.2% 2%;
 }
+.help-right-up {
+    padding: 1.2% 2%;
+}
 .help-right p {
     margin-top: 7px;
 }
+.help-right-up p {
+    margin-top: 7px;
+}
 .help-right h5 {
+    font-size: 18px;
+}
+.help-right-up h5 {
     font-size: 18px;
 }
 .tool {
@@ -1102,20 +1154,39 @@ figure.effect-oscar figcaption {
 .help-right h5 {
     font-size: 19px;
 }
+.help-right-up h5 {
+    font-size: 19px;
+}
 .help-right p {
     font-size: 14px;
 	margin-top: 8px;
 }
+.help-right-up p {
+    font-size: 14px;
+    margin-top: 8px;
+}
 .help-right {
+    padding: 3.59% 3%;
+}
+.help-right-up {
     padding: 3.59% 3%;
 }
 .help-right h3 {
     font-size: 2.07em !important;
 }
+.help-right-up h3 {
+    font-size: 2.07em !important;
+}
 .help-right {
     padding: 1% 3%;
 }
+.help-right-up {
+    padding: 1% 3%;
+}
 .help-right {
+    padding: 1.6% 3%;
+}
+.help-right-up {
     padding: 1.6% 3%;
 }
 .tool {
@@ -1253,6 +1324,9 @@ figure.effect-oscar figcaption {
 .help-right h3 {
     font-size: 2.1em !important;
 }
+.help-right-up h3 {
+    font-size: 2.1em !important;
+}
 .wel-left {
     width: 10%;
 }
@@ -1285,6 +1359,10 @@ a.tooltips span:before {
 .help-right {
     width: 100%;
 	padding: 3.6% 4%;
+}
+.help-right-up {
+    width: 100%;
+    padding: 3.6% 4%;
 }
 .team-left {
     width: 25%;
@@ -1431,6 +1509,9 @@ figure.effect-oscar figcaption {
     font-size: 1.9em;
 }
 .help-right h3 {
+    font-size: 1.9em !important;
+}
+.help-right-up h3 {
     font-size: 1.9em !important;
 }
 .welcome-left h5 {
@@ -1601,7 +1682,13 @@ figure.effect-oscar figcaption {
 .help-right h3 {
     font-size: 1.6em !important;
 }
+.help-right-up h3 {
+    font-size: 1.6em !important;
+}
 .help-right h5 {
+    font-size: 17px;
+}
+.help-right-up h5 {
     font-size: 17px;
 }
 .welcome-left h5 {
@@ -1765,6 +1852,9 @@ figure.effect-oscar figcaption {
 .help-right h3 {
     font-size: 1.4em !important;
 }
+.help-right-up h3 {
+    font-size: 1.4em !important;
+}
 .welcome-left h5 {
     font-size: 0.97em;
 }
@@ -1837,10 +1927,20 @@ figure.effect-oscar figcaption {
 .help-right {
     padding: 5% 3%;
 }
+.help-right-up {
+    padding: 5% 3%;
+}
 .help-right h5 {
     font-size: 15px;
 }
+.help-right-up h5 {
+    font-size: 15px;
+}
 .help-right p {
+    margin-top: 10px;
+    line-height: 1.6em;
+}
+.help-right-up p {
     margin-top: 10px;
     line-height: 1.6em;
 }
