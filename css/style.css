@@ -217,13 +217,13 @@ span.menu{
     color: #003366;
     font-size: 2.5em;
     margin: 0;
-    font-family: 'myFont';
+    font-family: 'glyphicons-halflings-regular.woff';
 }
 .welcome-left h5 {
     color: #99cc99;
     font-size: 1.32em;
     margin: 2px 0 0 0;
-    font-family: 'myFont';
+    font-family: 'glyphicons-halflings-regular.woff';
 }
 .welcome-left p{
 	font-size:16px;
@@ -500,7 +500,7 @@ span.menu{
 .help-right {
     width: 50%;
     float: right;
-    background: #cccc00;
+    background: #003366;
     padding: 5.27% 3.5%;
 }
 .help-right-up {
