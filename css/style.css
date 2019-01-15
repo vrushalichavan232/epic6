@@ -45,7 +45,7 @@ body a:hover{
 /*--Head-Starts--*/
 .head {
     padding: 18px 0px;
-    background: #9DEED3;
+    background: #99cc99;
 }
 .h-left{
 	text-align:left;
@@ -127,7 +127,7 @@ body a:hover{
 }
 .top-nav ul li  a {
 	display: inline-block;
-	color: #3FCD9D;
+	color: #99cc99;
 	text-decoration: none;		
 	font-size: 1.02em;
 	margin: 0em 0em 0 2em;
@@ -399,7 +399,7 @@ span.menu{
 /*--address-ends--*/
 /*--footer-starts--*/
 .footer{
-	background:#4DCDA2;
+	background:#99cc99;
 	padding:3em 0px;
 	text-align:center;
 }
@@ -500,7 +500,7 @@ span.menu{
 .help-right {
     width: 50%;
     float: right;
-    background: #61C5C4;
+    background: #003366;
     padding: 5.27% 3.5%;
 }
 .help-right-up {

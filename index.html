@@ -20,6 +20,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--start-smoth-scrolling-->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
+<style type="text/css">
+ .button {
+  background-color: #3B699C; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+    background-color: white; 
+  color: black; 
+  border: 2px solid #3B699C;
+}   
+
+.button2:active {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);  
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
 <script type="text/javascript">
             jQuery(document).ready(function($) {
                 $(".scroll").click(function(event){     
@@ -71,7 +100,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			    <li><a href="about2.html"><span class="glyphicon glyphicon-info-sign"></span>Nature lovers</a></li>                            
                             <li><a href="gallery.html"><span class="glyphicon glyphicon-picture"></span>Gallery</a></li>
 
-                            <li><a href="#passes-google-form"><span class="glyphicon glyphicon-tags"></span>Passes</a></li>
+                            <li><a href="#passes-google-form" class="scroll"><span class="glyphicon glyphicon-tags"></span>Passes</a></li>
 
                             <li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span>Contact</a></li>
                             <div class="clearfix"> </div>
@@ -142,12 +171,22 @@ $('body').removeClass('loading');
             <div class="clearfix"></div>
                 <div class="col-md-16" >
                     <br>
-                    <p>EPIC, Encouraging Potential in Community, is an All India Platform to Promote Talent in the Specially-abled Individuals in our Society.
- A concept by Leo club of Poona Nature Lovers initiated in 2014 with a sole purpose of Encouraging the Exceptional and Outstanding Potential in the Visually-Impaired,
- Deaf And Mute, Mentally And Physically Challenged Individuals. EPIC is an annual event materializing in Pune every January, providing a Platform for over 3000 
-specially-abled students in the past and it aspires to grow even stronger and wider as a Stage fo the specially-abled individuals. Over 4000 Audience have
- witnessed the EPIC Energy Of Bounty less inspiration, Mesmerizing Moments and Heartfelt Thoughts while watching the Show. We strive to Grow even bigger and 
-Stronger as a Platform where every Specially-abled anywhere could feel recognized by his/her talent not by his/her Disability'.</p>
+                    <p>EPIC, Encouraging Potential in Community, is an All India Platform
+to Promote the Talent in the Specially-abled Individuals in our Society.
+A concept by Leo club of Poona Nature Lovers initiated in 2014 with a
+sole purpose of Encouraging the Exceptional and Outstanding
+Potential in the Visually-Impaired, Deaf And Mute, Mentally And
+Physically Challenged Individuals.
+EPIC is an annual Event materializing in Pune every January,
+providing a Platform for over 3000 specially-abled students in the past
+and it aspires to grow even stronger and wider as a Stage fo the
+specially-abled beings.
+Over 4000 Audience members have witnessed the EPIC Energy
+Of Bounty less inspiration, Mesmerizing Moments and Heartfelt
+Thoughts while watching the Show.
+We strive to Grow even bigger and Stronger as a Platform where
+every Specially-abled anywhere could feel recognized by his/her
+talent not by his/her Disability'.</p>
 
                 </div>
                         <div class="clearfix"></div>        
@@ -179,13 +218,13 @@ Want to know who you are working with? We look forward to introducing you to our
     </div>  
     <!--help-end-->
 
-<div class="help" id="passes-google-form">
-        <div class="heading" style="height:200px">
-            <h3 style="text-align: center;">Can't wait to watch???</h3>
-            <h5 style="text-align: center;">Connect with us now!!!</h5>
+<div class="help" id="passes-google-form" style="background-color: #E5E4E4; height: 250px;margin-bottom: 30px;width: 100%;" align="center">
+        <div class="heading" style="height:100px;padding-bottom: 20px;">
+            <h3 style="text-align: center;font-family: GeometricaSans-Regular;color: black;">Can't wait to watch???</h3>
+            <h5 style="text-align: center;font-family: GeometricaSans-Regular;color: black;">Connect with us now!!!</h5>
             
         <p align="center" style="padding-top:10px;padding-left:10px;font-size:30px;">
-            <a href="https://goo.gl/forms/jdyEWYqh0JxntQjb2" style="color:#FFFFFF"><button  style="color: grey;background-color: #f5f5ef; font-weight: 24px;">Click Here to Get Your Passes</button></a>
+            <a href="https://goo.gl/forms/jdyEWYqh0JxntQjb2" style="color:#FFFFFF"><button class="button button2" style="font-family: GeometricaSans-Regular;font-size: 24px;border-radius: 8px;  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);">Book Now</button></a>
         </p>
 
         </div>
