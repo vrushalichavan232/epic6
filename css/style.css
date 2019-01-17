@@ -45,7 +45,7 @@ body a:hover{
 /*--Head-Starts--*/
 .head {
     padding: 18px 0px;
-    background: #99cc99;
+    background: #66b3ff;
 }
 .h-left{
 	text-align:left;
@@ -105,7 +105,7 @@ body a:hover{
 	font-size:2.7em;
 	color:#003366;
 	margin:0;
-	font-family: 'myFont';
+	font-family: 'GeometricaSans-Regular';
 }
 .logo a:hover{
 	text-decoration:none;
@@ -127,7 +127,7 @@ body a:hover{
 }
 .top-nav ul li  a {
 	display: inline-block;
-	color: #99cc99;
+	color: #3399ff;
 	text-decoration: none;		
 	font-size: 1.02em;
 	margin: 0em 0em 0 2em;
@@ -217,17 +217,17 @@ span.menu{
     color: #003366;
     font-size: 2.5em;
     margin: 0;
-    font-family: 'glyphicons-halflings-regular.woff';
+    font-family: 'times new roman';
 }
 .welcome-left h5 {
     color: #99cc99;
     font-size: 1.32em;
     margin: 2px 0 0 0;
-    font-family: 'glyphicons-halflings-regular.woff';
+    font-family: 'times new roman';
 }
 .welcome-left p{
 	font-size:16px;
-	color:#999;
+	color: rgba(0, 0, 0, 0.8);
 	line-height:1.8em;
 	margin-top:15px;
 	float :justify;
@@ -371,7 +371,7 @@ span.menu{
 }
 .add-left span {
     font-size: 2.6em;
-    color: #003366;
+    color: #b3d9ff;
     padding: 15px;
     border: 5px solid #CECECE;
 	display:inline-block;
@@ -380,18 +380,18 @@ span.menu{
 .add-left p {
     font-size: 17px;
     line-height: 1.8em;
-    color: #99cc99;
+    color: rgba(0, 0, 0, 0.9);
     display: inline-block;
     vertical-align: middle;
     width: 60%;
     margin-left: 17px;
 }
 .add-left p a{
-	color:#99cc99;
+	color:rgba(0, 0, 0, 0.9);
 }
 .add-left p a:hover{
 	text-decoration:none;
-	color:#003366;
+	color:#b3d9ff;
 }
 .add-left p label{
 	display:block;
@@ -399,7 +399,7 @@ span.menu{
 /*--address-ends--*/
 /*--footer-starts--*/
 .footer{
-	background:#99cc99;
+	background:#66b3ff;
 	padding:3em 0px;
 	text-align:center;
 }
@@ -440,7 +440,7 @@ span.menu{
 	width:100%;
 }
 .events-top p, .contact-form p, .why-top p {
-    color: #999;
+    color: rgba(0, 0, 0, 0.9);
     line-height: 1.8em;
     width: 70%;
     margin: 10px auto 0;
@@ -820,7 +820,7 @@ figure.effect-oscar:hover img {
 	text-align:center;
 }
 .about-right h4 {
-    color: #99cc99;
+    color: rgba(0, 0, 0, 0.9);
     margin: 0;
     font-size: 1.07em;
     line-height: 1.5em;
@@ -828,7 +828,7 @@ figure.effect-oscar:hover img {
 }
 .about-right p{
 	font-size: 16px;
-    color: #999;
+    color: rgba(0, 0, 0, 0.8);
     line-height: 1.8em;
     margin-top:8px;
 }
@@ -851,14 +851,14 @@ figure.effect-oscar:hover img {
     margin-left: 21px;
 }
 .why-text h4{
-	color: #99cc99;
+	color: #b3d9ff;
     margin: 0;
     font-size: 1.4em;
     font-family: 'myFont';
 }
 .why-text p{
 	font-size: 16px;
-    color: #999;
+    color: rgba(0, 0, 0, 0.8);
     line-height: 1.8em;
     margin-top: 8px;
 }
