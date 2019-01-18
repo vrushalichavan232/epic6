@@ -138,7 +138,7 @@ body a:hover{
     margin-bottom: 4px;
 }
 .top-nav ul li a:hover,.top-nav ul li a.active{
-	color:#003366;
+	color:#3399ff;
 }
 @media(max-width:768px){
 span.menu{
@@ -154,7 +154,7 @@ span.menu{
 	z-index: 9999;
 	left: 0%;
 	margin:1.1em 0em;
-	background:#99cc99;
+	background:#3399ff;
 	border:0;
 }
 .top-nav span.menu{
@@ -200,7 +200,7 @@ span.menu{
 	font-family: 'myFont';
 }
 .banner-text p {
-    background: #99cc99;
+    background: #3399ff;
     color: #fff;
     font-size: 1.6em;
     padding: 6px 55px;
@@ -220,7 +220,7 @@ span.menu{
     font-family: 'times new roman';
 }
 .welcome-left h5 {
-    color: #99cc99;
+    color: #3399ff;
     font-size: 1.32em;
     margin: 2px 0 0 0;
     font-family: 'times new roman';
@@ -245,7 +245,7 @@ span.menu{
 	color:#003366;
 }
 .wel-right h4 {
-    color: #99cc99;
+    color: #3399ff;
     margin: 0;
     font-size: 1.32em;
     font-family: 'myFont';
@@ -256,7 +256,7 @@ span.menu{
 /*--welcome-ends--*/
 /*--letter-starts--*/
 .letter-top {
-    background: #99cc99;
+    background: #3399ff;
     padding: 2.5em 0px;
     text-align: center;
 }
@@ -351,7 +351,7 @@ span.menu{
     margin: 17px 0px;
 }
 .team-text h5 {
-    color: #99cc99;
+    color: #3399ff;
     font-size: 1.45em;
     margin: 0;
 	font-family: 'myFont';
@@ -583,7 +583,7 @@ a.tooltips span:before {
 h3.ghj {
     font-size: 2em;
 	margin: 0 0 1em 0;
-	color: #99cc99;
+	color: #3399ff;
     font-family: 'myFont';
 }
 .pages-top{
@@ -796,7 +796,7 @@ figure.effect-oscar:hover img {
     outline: none;
 }
 .submit-btn input[type=submit]:hover {
-    background: #99cc99;
+    background: #3399ff;
     border: 1px double #99cc99;
     color: #fff;
     transition: 0.5s all ease;
