@@ -200,7 +200,7 @@ span.menu{
 	font-family: 'myFont';
 }
 .banner-text p {
-    background: #3399ff;
+    background: red;
     color: #fff;
     font-size: 1.6em;
     padding: 6px 55px;
