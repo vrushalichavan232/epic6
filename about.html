@@ -27,7 +27,49 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
 			});
-		</script>
+</script>
+<style type="text/css">
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 33.33%; /* IE10 */
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+	
+</style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">		
 <!--start-smoth-scrolling-->
 </head>
@@ -164,8 +206,8 @@ Thoughts while watching the Show.</b></p>
 				<h3>Gallery</h3>
 			</div>
 			<div class="gallery-bottom grid">
-				<div class="g-1">
-					<div class="col-md-4 g-right">
+				<div class="row">
+					<div class="column">
 						<a href="images/g9.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-oscar">
 								<img src="images/g9.jpg" alt="img09" style="height: 250px;"/>
@@ -176,7 +218,7 @@ Thoughts while watching the Show.</b></p>
 							</figure>
 						</a>
 					</div>						
-					<div class="col-md-4 g-left">
+					<div class="column">
 						<a href="images/dhale1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-oscar">
 								<img src="images/dhale1.jpg" alt="" style="height: 250px;"/>
@@ -187,7 +229,7 @@ Thoughts while watching the Show.</b></p>
 							</figure>
 						</a>
 					</div>
-					<div class="col-md-4 g-right">
+					<div class="column">
 						<a href="images/g3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-oscar">
 								<img src="images/g3.jpg" alt="img09" style="height: 250px;"/>
@@ -200,8 +242,8 @@ Thoughts while watching the Show.</b></p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
-				<div class="g-2">
-					<div class="col-md-5 g-right">
+				<div class="row">
+					<div class="column">
 						<a href="images/g4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-oscar">
 								<img src="images/g4.jpg" alt="img09" style="height: 250px;"/>
@@ -212,7 +254,7 @@ Thoughts while watching the Show.</b></p>
 							</figure>
 						</a>
 					</div>
-					<div class="col-md-4 g-left">
+					<div class="column">
 						<a href="images/g5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-oscar">
 								<img src="images/g5.jpg" alt="img09" style="height: 250px;"/>
@@ -223,7 +265,7 @@ Thoughts while watching the Show.</b></p>
 							</figure>
 						</a>
 					</div>
-					<div class="col-md-3 g-left">
+					<div class="column">
 						<a href="images/g6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-oscar">
 								<img src="images/g6.jpg" alt="img09" style="height: 250px;"/>
@@ -236,8 +278,8 @@ Thoughts while watching the Show.</b></p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>	
-				<div class="g-2">
-					<div class="col-md-4 g-left" style="margin-top: 4px;margin-bottom: 2px;">
+				<div class="row">
+					<div class="column" style="margin-top: 4px;margin-bottom: 2px;">
 						<a href="images/g7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-oscar">
 								<img src="images/g7.jpg" alt="img09" style="height: 350px;" />
@@ -248,7 +290,7 @@ Thoughts while watching the Show.</b></p>
 							</figure>
 						</a>
 					</div>
-					<div class="col-md-4 g-left" style="margin-top: 4px;margin-bottom: 2px;">
+					<div class="column" style="margin-top: 4px;margin-bottom: 2px;">
 						<a href="images/petkarpng" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-oscar">
 								<img src="images/petkar.png" style="height: 350px;"/>
@@ -259,7 +301,7 @@ Thoughts while watching the Show.</b></p>
 							</figure>
 						</a>
 					</div>		
-					<div class="col-md-4 g-left" style="margin-top: 4px;margin-bottom: 2px;">
+					<div class="column" style="margin-top: 4px;margin-bottom: 2px;">
 						<a href="images/g1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-oscar">
 								<img src="images/g1.jpg" alt="" style="height: 350px;"/>
@@ -272,8 +314,8 @@ Thoughts while watching the Show.</b></p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>	
-				<div class="g-2">
-					<div class="col-md-4 g-left" style="margin-top: 2px;margin-bottom: 2px;">
+				<div class="row">
+					<div class="column" style="margin-top: 2px;margin-bottom: 2px;">
 						<a href="images/kulllar.jpg" rel="title" class="b-link-stripe b-animate-go thickbox">
 							<figure class="effect-oscar">
 								<img src="images/kullar.jpg" />
@@ -284,7 +326,7 @@ Thoughts while watching the Show.</b></p>
 							</figure>
 						</a>
 					</div>
-					<div class="col-md-4 g-left" style="margin-top: 2px;margin-bottom: 2px;">
+					<div class="column" style="margin-top: 2px;margin-bottom: 2px;">
 						<a href="images/mane1.JPG" rel="title" class="b-link-stripe b-animate-go thickbox">
 							<figure class="effect-oscar">
 								<img src="images/mane1.JPG" />
@@ -295,7 +337,7 @@ Thoughts while watching the Show.</b></p>
 							</figure>
 						</a>
 					</div>	
-					<div class="col-md-4 g-left" style="margin-top: 2px;margin-bottom: 2px;">
+					<div class="column" style="margin-top: 2px;margin-bottom: 2px;">
 						<a href="images/munne2.jpg" rel="title" class="b-link-stripe b-animate-go thickbox">
 							<figure class="effect-oscar">
 								<img src="images/munne2.jpg" />
