@@ -8,23 +8,28 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 10435,
+				"buffer_size": 6325,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Package Control Messages\n========================\n\nLiveReload\n----------\n\n  Changelog:\n  \n  Please be sure to restart Sublime Text to start using this new version. For more information or how to use this plugin visit https://github.com/alepez/LiveReload-sublimetext3\n",
+			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 267,
-				"line_ending": "Windows",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
+				"buffer_size": 24958,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 117259,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -39,6 +44,22 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"LIVERELOAD",
+				"LiveReload: Enable/disable plug-ins"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -72,11 +93,29 @@
 	},
 	"file_history":
 	[
-		"/D/EPIC 2020/epic6/index.html"
+		"/D/EPIC 2020/epic6/typo.html",
+		"/D/EPIC 2020/epic6/nep.html",
+		"/D/EPIC 2020/epic6/gallery.html",
+		"/D/EPIC 2020/epic6/contact.html",
+		"/D/EPIC 2020/epic6/cas.html",
+		"/D/EPIC 2020/epic6/about2.html",
+		"/D/EPIC 2020/epic6/about.html",
+		"/D/EPIC 2020/epic6/index.html",
+		"/C/Users/SM/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/SM/Desktop/New folder/WEB DEVELOPMENT PRACTICE/header.html",
+		"/C/Users/SM/Desktop/New folder/WEB DEVELOPMENT PRACTICE/footer.html",
+		"/C/Users/SM/Desktop/New folder/WEB DEVELOPMENT PRACTICE/index.html",
+		"/C/Users/SM/Desktop/New folder/WEB DEVELOPMENT PRACTICE/header.txt",
+		"/C/Users/SM/Desktop/New folder/WEB DEVELOPMENT PRACTICE/footer.txt",
+		"/D/EPIC 2020/epic6/petkar.html",
+		"/D/EPIC 2020/epic6/munne.html",
+		"/D/EPIC 2020/epic6/mane.html",
+		"/D/EPIC 2020/epic6/holla.html",
+		"/D/EPIC 2020/epic6/dhale.html"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -90,6 +129,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"instagram",
+			"facebook",
+			"css",
+			"fa fa-facebook",
 			"const"
 		],
 		"highlight": true,
@@ -108,67 +151,91 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "contact.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10435,
+						"buffer_size": 6325,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								187,
-								187
+								2611,
+								2612
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 448.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 267,
+						"buffer_size": 24958,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								267,
-								267
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_indent": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 117259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2976,
+								2976
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 20148.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -176,7 +243,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -213,7 +280,7 @@
 	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
