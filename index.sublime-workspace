@@ -8,19 +8,20 @@
 	"buffers":
 	[
 		{
-			"file": "contact.html",
+			"file": "css/chocolat.css",
 			"settings":
 			{
-				"buffer_size": 6325,
-				"encoding": "UTF-8 with BOM",
+				"buffer_size": 1587,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/style.css",
+			"file": "css/flexslider.css",
 			"settings":
 			{
-				"buffer_size": 24958,
+				"buffer_size": 2787,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -29,6 +30,15 @@
 			"settings":
 			{
 				"buffer_size": 117259,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 24834,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -47,6 +57,10 @@
 			[
 				"LiveReload: Enable/disable plugins",
 				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
 			],
 			[
 				"Package Control: in",
@@ -95,12 +109,18 @@
 	[
 		"/D/EPIC 2020/epic6/typo.html",
 		"/D/EPIC 2020/epic6/nep.html",
-		"/D/EPIC 2020/epic6/gallery.html",
 		"/D/EPIC 2020/epic6/contact.html",
 		"/D/EPIC 2020/epic6/cas.html",
 		"/D/EPIC 2020/epic6/about2.html",
+		"/D/EPIC 2020/epic6/gallery.html",
 		"/D/EPIC 2020/epic6/about.html",
 		"/D/EPIC 2020/epic6/index.html",
+		"/C/Users/SM/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/C/Users/SM/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/D/EPIC 2020/epic6/holla.html",
+		"/D/EPIC 2020/epic6/dhale.html",
+		"/D/EPIC 2020/epic6/css/bootstrap.css",
+		"/D/EPIC 2020/epic6/css/style.css",
 		"/C/Users/SM/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
 		"/C/Users/SM/Desktop/New folder/WEB DEVELOPMENT PRACTICE/header.html",
 		"/C/Users/SM/Desktop/New folder/WEB DEVELOPMENT PRACTICE/footer.html",
@@ -109,13 +129,11 @@
 		"/C/Users/SM/Desktop/New folder/WEB DEVELOPMENT PRACTICE/footer.txt",
 		"/D/EPIC 2020/epic6/petkar.html",
 		"/D/EPIC 2020/epic6/munne.html",
-		"/D/EPIC 2020/epic6/mane.html",
-		"/D/EPIC 2020/epic6/holla.html",
-		"/D/EPIC 2020/epic6/dhale.html"
+		"/D/EPIC 2020/epic6/mane.html"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -129,6 +147,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"nep",
+			"gallery",
 			"instagram",
 			"facebook",
 			"css",
@@ -156,27 +176,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "contact.html",
+					"file": "css/chocolat.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6325,
+						"buffer_size": 1587,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2611,
-								2612
+								1587,
+								1587
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
-						"translation.x": 0.0,
-						"translation.y": 448.0,
+						"translation.x": 10214.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -184,30 +204,30 @@
 				},
 				{
 					"buffer": 1,
-					"file": "css/style.css",
+					"file": "css/flexslider.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 24958,
+						"buffer_size": 2787,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2787,
+								2787
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
-						"translation.x": 0.0,
+						"translation.x": 18791.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -223,19 +243,47 @@
 						"selection":
 						[
 							[
-								2976,
-								2976
+								0,
+								117259
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
-						"translation.x": 20148.0,
+						"translation.x": 836974.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24834,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24834,
+								24834
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 176371.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
